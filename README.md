@@ -20,3 +20,11 @@
 - **PostgreSQL** — реляционная база данных  
 - **Uvicorn** — ASGI сервер для запуска FastAPI  
 - **Docker** — для контейнеризации приложения и базы данных  
+
+## Развёртывание
+
+1) git clone git@github.com:RH1532/diary-backend.git
+2) python -m venv venv
+3) source venv/Scripts/activate
+4) docker-compose up --build
+5) после запуска http://localhost:8000/docs
